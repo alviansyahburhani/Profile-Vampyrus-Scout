@@ -16,7 +16,7 @@
 - [Pengembang](#pengembang)
 
 ##Landing Page
-![Logo Aplikasi Saya](Public/vpy.png)
+![Logo Aplikasi Saya](public/vpy.png)
 
 ## Deskripsi Proyek
 **Vampyrus Scout** adalah website profil resmi untuk gugus Pramuka **Vampyrus**. Website ini dibangun untuk memperkenalkan identitas, visi & misi, serta susunan anggota gugus kepada publik secara digital, modern, dan mudah diakses.
