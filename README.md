@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏕️ Vampyrus Scout — Website Profil Gugus Pramuka
 
-## Getting Started
+![Status](https://img.shields.io/badge/status-active-success)
+![Framework](https://img.shields.io/badge/framework-Next.js-black)
+![Language](https://img.shields.io/badge/language-TypeScript-blue)
 
-First, run the development server:
+## Daftar Isi
+- [Deskripsi Proyek](#deskripsi-proyek)
+- [Fitur Utama](#fitur-utama)
+- [Tech Stack](#tech-stack)
+- [Struktur Proyek](#struktur-proyek)
+- [Instalasi](#instalasi)
+- [Cara Menjalankan](#cara-menjalankan)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
+- [Pengembang](#pengembang)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+##Landing Page
+![Logo Aplikasi Saya](Public/vpy.png)
+
+## Deskripsi Proyek
+**Vampyrus Scout** adalah website profil resmi untuk gugus Pramuka **Vampyrus**. Website ini dibangun untuk memperkenalkan identitas, visi & misi, serta susunan anggota gugus kepada publik secara digital, modern, dan mudah diakses.
+
+Proyek ini dikembangkan menggunakan **Next.js** dengan **TypeScript**, mengedepankan tampilan yang responsif dan performa loading yang cepat.
+
+## Fitur Utama
+- **Hero Section** — Tampilan utama yang menampilkan identitas visual gugus Vampyrus Scout.
+- **Visi & Misi** — Halaman yang menjelaskan visi, misi, dan nilai-nilai kepramukaan yang dijunjung.
+- **Profil Anggota** — Menampilkan susunan dan profil anggota/pengurus gugus.
+- **Identitas Kelembagaan** — Menampilkan logo resmi afiliasi organisasi seperti **WOSM**, **Kwarda**, dan sekolah pangkalan (**SMP 2**).
+- **Desain Responsif** — Tampilan optimal di berbagai perangkat, dari desktop hingga mobile.
+
+## Tech Stack
+| Komponen | Teknologi |
+|---|---|
+| Framework | Next.js (App Router) |
+| Bahasa | TypeScript |
+| Styling | Tailwind CSS |
+| Font Kustom | MATURASC (custom typeface) |
+
+## Struktur Proyek
+```text
+├── app/
+│   ├── globals.css        # Styling global
+│   ├── layout.tsx         # Layout utama aplikasi
+│   └── page.tsx           # Halaman utama (landing page)
+├── components/
+│   ├── Header.tsx          # Navigasi utama website
+│   ├── HeroSection.tsx     # Bagian hero/banner utama
+│   ├── VisiMisi.tsx        # Komponen visi & misi
+│   └── Anggota.tsx         # Komponen daftar anggota
+├── public/
+│   ├── Logo.webp
+│   ├── Kwarda.webp
+│   ├── Wosm.webp
+│   ├── Tunas.webp
+│   ├── Smp2.webp
+│   └── fonts/
+│       └── MATURASC.TTF
+├── next.config.ts
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalasi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prasyarat
+- Node.js `>= 18.x`
+- npm atau package manager lain (yarn/pnpm)
+- Git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Clone Repository
+```bash
+git clone https://github.com/alviansyahburhani/Profile-Vampyrus-Scout.git
+cd Profile-Vampyrus-Scout
+```
 
-## Learn More
+### Instalasi Dependensi
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Cara Menjalankan
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Mode Pengembangan
+```bash
+npm run dev
+```
+Akses website melalui `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Build untuk Produksi
+```bash
+npm run build
+npm run start
+```
 
-## Deploy on Vercel
+## Kontribusi
+Kontribusi terbuka untuk pengembangan lebih lanjut. Silakan ikuti langkah berikut:
+1. Fork repository ini
+2. Buat branch baru (`git checkout -b fitur/nama-fitur`)
+3. Commit perubahan (`git commit -m "Menambahkan fitur X"`)
+4. Push ke branch (`git push origin fitur/nama-fitur`)
+5. Buat Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Pengembang
+Proyek ini dikembangkan oleh **Alvian Syah Burhani**.
+
+📧 Untuk pertanyaan atau kolaborasi, silakan hubungi melalui GitHub: [@alviansyahburhani](https://github.com/alviansyahburhani)
