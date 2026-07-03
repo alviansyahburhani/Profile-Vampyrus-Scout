@@ -15,7 +15,7 @@
 - [Lisensi](#lisensi)
 - [Pengembang](#pengembang)
 
-##Landing Page
+## Landing Page
 ![Logo Aplikasi Saya](public/vpy.png)
 
 ## Deskripsi Proyek
